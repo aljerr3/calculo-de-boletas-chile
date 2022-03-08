@@ -39,7 +39,7 @@
           <span class="input-dollar" id="basic-addon1">$</span>
         </div>
         <input
-          type="text"
+          type="number"
           class="form-control"
           placeholder="150.000"
           aria-label="Username"
