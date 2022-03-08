@@ -63,7 +63,7 @@
             </p>
             <hr />
             <p class="card-text">
-              Valor Bruto: <span class="card-amount"
+              Realizar Boleta por: <span class="card-amount"
                 >$ {convertirMoneda(valBrutus)}</span
               >
             </p>
@@ -73,13 +73,13 @@
               >
             </p>
             <p class="card-text">
-              Pago Líquido: <span class="card-amount"
+              Recibes Líquido: <span class="card-amount"
                 >$ {convertirMoneda(valLiquid)}</span
               >
             </p>
             <a
               href="https://www.sii.cl/servicios_online/3532-.html"
-              class="btn btn-primary">Copiar valor e Ir al SII</a
+              class="btn btn-primary">Ir al SII</a
             >
           </div>
         </div>
@@ -94,7 +94,7 @@
             </p>
             <hr />
             <p class="card-text">
-              Valor Bruto: <span class="card-amount"
+              Realizar boleta por: <span class="card-amount"
                 >$ {convertirMoneda(valLiquid)}</span
               >
             </p>
@@ -104,19 +104,21 @@
               >
             </p>
             <p class="card-text">
-              Pago Líquido: <span class="card-amount"
+              Recibes Líquido: <span class="card-amount"
                 >$ {convertirMoneda(brutus)}</span
               >
             </p>
             <a
               href="https://www.sii.cl/servicios_online/3532-.html"
-              class="btn btn-primary">Copiar valor e Ir al SII</a
+              class="btn btn-primary">Ir al SII</a
             >
           </div>
         </div>
       </div>
     </div>
   </div>
+  <hr />
+  <h6>Diseñado por Alejandro Rodríguez</h6>
 </div>
 
 <style>
@@ -172,7 +174,7 @@
   }
 
   .container-input {
-    max-width: 160px;
+    max-width: 260px;
     display: inline-block;
   }
 
@@ -189,5 +191,10 @@
     background-color: rgb(9, 70, 128);
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
+  }
+
+  .btn-primary {
+    background-color: rgb(9, 70, 128);
+    border-color: rgb(9, 70, 128);
   }
 </style>
