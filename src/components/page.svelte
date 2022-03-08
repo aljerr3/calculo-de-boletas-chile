@@ -6,6 +6,7 @@
   let valLiquid: number = 0;
   let brutus: number = 0;
 
+  //función para convertir valores
   const getValues = (value: number) => {
     valBrutus = value / 0.8775;
     valLiquid = value;
@@ -119,6 +120,7 @@
   </div>
   <hr />
   <h6>Diseñado por Alejandro Rodríguez</h6>
+  <h7>@im_alejandrorodriguez</h7>
 </div>
 
 <style>
