@@ -91,7 +91,8 @@
           <div class="card-body">
             <h5 class="card-title">¿Cómo funciona?</h5>
             <p class="card-amount">
-              El Emisor de la boleta recibe el 100% del valor de la misma.
+              El Emisor de la boleta debe pagar el impuesto, por lo que recibe
+              menos.
             </p>
             <hr />
             <p class="card-text">
@@ -159,6 +160,7 @@
     border-radius: 1rem;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2),
       0 12px 30px 0 rgba(0, 0, 0, 0.19);
+    min-height: 370px;
   }
 
   .card:hover {
@@ -195,8 +197,18 @@
     border-radius: 0.25rem;
   }
 
+  .input-dollar:hover {
+    background-color: rgb(160, 7, 78);
+    border-color: rgb(160, 7, 78);
+  }
+
   .btn-primary {
     background-color: rgb(9, 70, 128);
     border-color: rgb(9, 70, 128);
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(160, 7, 78);
+    border-color: rgb(160, 7, 78);
   }
 </style>
