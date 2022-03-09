@@ -81,7 +81,7 @@
     <div class="row">
       <div class="col-12 col-md-6">
         <div class="card rounded-5">
-          <h5 class="card-header1">Valor Líquido</h5>
+          <h5 class="card-header1">Valor Líquido💵</h5>
           <div class="card-body">
             <h5 class="card-title">¿Cómo Funciona?</h5>
             <p class="card-amount">
@@ -114,7 +114,7 @@
       </div>
       <div class="col-12 col-md-6">
         <div class="card rounded-5">
-          <h5 class="card-header2">Valor Bruto</h5>
+          <h5 class="card-header2">Valor Bruto💷</h5>
           <div class="card-body">
             <h5 class="card-title">¿Cómo funciona?</h5>
             <p class="card-amount">
@@ -151,12 +151,15 @@
   <img class="logo" src="img/logo.png" alt="logo" />
   <hr />
   <h7>
-    Aplicación de código libre diseñada en Svelte para Calcular el valor de las
-    boletas de honorarios en Chile. Actualizado con el impuesto del 12,25% del
-    año 2022.
+    Aplicación de código libre diseñada para calcular el valor de las boletas de
+    honorarios en Chile. Actualizado con el impuesto del 12,25% del año 2022.
   </h7>
   <h6>Hecho en Chile con mucho Amor ❤</h6>
-  <h6>@im_alejandrorodriguez</h6>
+  <h6>
+    <a href="https://www.instagram.com/im_alejandrorodriguez/"
+      >@im_alejandrorodriguez</a
+    >
+  </h6>
 </div>
 
 <style>
