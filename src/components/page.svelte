@@ -151,8 +151,7 @@
   <hr />
   <img src="img/logo.png" alt="logo" />
 
-  <h6>Diseñado por Alejandro Rodríguez</h6>
-  <h7>@im_alejandrorodriguez</h7>
+  <h6>@im_alejandrorodriguez</h6>
 </div>
 
 <style>
