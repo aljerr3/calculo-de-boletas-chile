@@ -56,7 +56,7 @@
 </script>
 
 <div class="page-container">
-  <img src="./img/logo.png" alt="background" />
+  <img src="img/logo.png" alt="background" />
   <div class="animate__animated animate__bounce col-12 mb-3">
     <h5>Ingresa el Monto:</h5>
     <div class="container-input">
@@ -104,6 +104,7 @@
                 >$ {convertirMoneda(valLiquid)}</span
               >
             </p>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a
               on:click={() => copyToClickBoard(valBrutusRounded)}
               href="#"
@@ -137,6 +138,7 @@
                 >$ {convertirMoneda(brutus)}</span
               >
             </p>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a
               on:click={() => copyToClickBoard(valLiquid)}
               href="#"
