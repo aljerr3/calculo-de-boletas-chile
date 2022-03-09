@@ -148,9 +148,8 @@
       </div>
     </div>
   </div>
+  <img class="logo" src="img/logo.png" alt="logo" />
   <hr />
-  <img src="img/logo.png" alt="logo" />
-
   <h6>@im_alejandrorodriguez</h6>
 </div>
 
@@ -240,5 +239,10 @@
   .btn-primary:hover {
     background-color: rgb(160, 7, 78);
     border-color: rgb(160, 7, 78);
+  }
+  .logo {
+    max-width: 250px;
+    min-width: 250px;
+    margin: 1rem;
   }
 </style>
