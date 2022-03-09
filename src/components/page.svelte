@@ -56,7 +56,6 @@
 </script>
 
 <div class="page-container">
-  <img src="img/logo.png" alt="background" />
   <div class="animate__animated animate__bounce col-12 mb-3">
     <h5>Ingresa el Monto:</h5>
     <div class="container-input">
@@ -150,6 +149,8 @@
     </div>
   </div>
   <hr />
+  <img src="img/logo.png" alt="logo" />
+
   <h6>Diseñado por Alejandro Rodríguez</h6>
   <h7>@im_alejandrorodriguez</h7>
 </div>
