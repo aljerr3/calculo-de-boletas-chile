@@ -1,14 +1,17 @@
 <script lang="ts">
+  import "animate.css";
   let amount: number;
   let brutusTaxes: number = 0;
   let liquidTaxes: number = 0;
   let valBrutus: number = 0;
   let valLiquid: number = 0;
   let brutus: number = 0;
+  let valBrutusRounded: number = 0;
 
   //función para convertir valores
   const getValues = (value: number) => {
     valBrutus = value / 0.8775;
+    valBrutusRounded = Math.round((valBrutus + Number.EPSILON) * 100) / 100;
     valLiquid = value;
     liquidTaxes = valBrutus - value;
     brutusTaxes = value * 0.1225;
@@ -28,6 +31,28 @@
       return dollars;
     }
   };
+
+  function copyToClickBoard(copy) {
+    let total;
+    total = copy.toString().replace(/\./g, ",");
+    if (copy > 0) {
+      navigator.clipboard
+        .writeText(total)
+        .then(() => {
+          alert(
+            "El monto ha sido copiado $" +
+              total +
+              " será redireccionado al SII. Para realizar Boleta simplemente presione click derecho y pegue el valor en la celda 'Valor 1'"
+          );
+          window.open("https://www.sii.cl/servicios_online/1040-1287.html");
+        })
+        .catch((err) => {
+          console.log("Algo salió mal", err);
+        });
+    } else {
+      alert("el valor debe ser mayor a 0");
+    }
+  }
 </script>
 
 <div class="page-container">
@@ -52,7 +77,7 @@
 
     <hr />
   </div>
-  <div class="container">
+  <div class="container animate__animated animate__slideInUp">
     <div class="row">
       <div class="col-12 col-md-6">
         <div class="card rounded-5">
@@ -79,8 +104,9 @@
               >
             </p>
             <a
-              href="https://www.sii.cl/servicios_online/3532-.html"
-              class="btn btn-primary">Ir al SII</a
+              on:click={() => copyToClickBoard(valBrutusRounded)}
+              href="#"
+              class="btn btn-primary">Copiar valor e ir al SII</a
             >
           </div>
         </div>
@@ -111,8 +137,9 @@
               >
             </p>
             <a
-              href="https://www.sii.cl/servicios_online/3532-.html"
-              class="btn btn-primary">Ir al SII</a
+              on:click={() => copyToClickBoard(valLiquid)}
+              href="#"
+              class="btn btn-primary">Copiar valor e ir al SII</a
             >
           </div>
         </div>
