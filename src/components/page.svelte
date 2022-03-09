@@ -105,7 +105,7 @@
             </p>
             <a
               on:click={() => copyToClickBoard(valBrutusRounded)}
-              href="#"
+              href="https://google.com"
               class="btn btn-primary">Copiar valor e ir al SII</a
             >
           </div>
@@ -138,7 +138,7 @@
             </p>
             <a
               on:click={() => copyToClickBoard(valLiquid)}
-              href="#"
+              href="http://google.com"
               class="btn btn-primary">Copiar valor e ir al SII</a
             >
           </div>
