@@ -1,4 +1,4 @@
-<h1>Calculadora de Boletas Chile</h1>
+<h1>Calculadora de Boletas Chile💰</h1>
 <hr />
 <div class="line" />
 

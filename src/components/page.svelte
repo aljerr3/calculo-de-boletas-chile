@@ -150,6 +150,12 @@
   </div>
   <img class="logo" src="img/logo.png" alt="logo" />
   <hr />
+  <h7>
+    Aplicación de código libre diseñada en Svelte para Calcular el valor de las
+    boletas de honorarios en Chile. Actualizado con el impuesto del 12,25% del
+    año 2022.
+  </h7>
+  <h6>Hecho en Chile con mucho Amor ❤</h6>
   <h6>@im_alejandrorodriguez</h6>
 </div>
 
