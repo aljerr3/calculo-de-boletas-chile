@@ -10,11 +10,11 @@
 
   //función para convertir valores
   const getValues = (value: number) => {
-    valBrutus = value / 0.8775;
+    valBrutus = value / 0.87;
     valBrutusRounded = Math.round((valBrutus + Number.EPSILON) * 100) / 100;
     valLiquid = value;
     liquidTaxes = valBrutus - value;
-    brutusTaxes = value * 0.1225;
+    brutusTaxes = value * 0.13;
     brutus = value - brutusTaxes;
   };
 
@@ -152,7 +152,7 @@
   <hr />
   <h7>
     Aplicación de código libre diseñada para calcular el valor de las boletas de
-    honorarios en Chile. Actualizado con el impuesto del 12,25% del año 2022.
+    honorarios en Chile. Actualizado con el impuesto del 13% del año 2023.
   </h7>
   <h6>Hecho en Chile con mucho Amor ❤</h6>
   <h6>
